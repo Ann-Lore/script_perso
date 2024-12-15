@@ -1,0 +1,6 @@
+Nombre de produits pour la catégorie Électronique : 3
+Nombre de produits pour la catégorie Papeterie : 3
+Nombre de produits pour la catégorie Mobilier : 3
+Nombre de produits total : 830 
+Prix total du stock: 14121.30€ 
+Prix moyen par article : 17.01€ 

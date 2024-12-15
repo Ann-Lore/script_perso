@@ -12,7 +12,7 @@ def consolidation_fichiers(csv_files, output_file, append,new_line,update,line_t
         Les champs Quantité et Prix doivent être respectivement des entiers et des flottants.
 
     POST :
-        Les fichiers CSV sont consolidés dans un fichier unique sans doublons (somme des quantités pour les mêmes produits).
+        Les fichiers CSV sont consolidés dans un fichier unique sans doublons (somme des quantités pour les mêmes produits qui sont uniques).
         Si append est utilisé :
             La nouvelle ligne est ajoutée ou mise à jour dans le fichier consolidé
         Si update est utilisé :

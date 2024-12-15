@@ -22,6 +22,7 @@ def recherche(output_file, nom_produit, categorie, prix_min, prix_max):
                     l = i.strip().split(',')
                     if l[0] == nom_produit:
                         trouve = True
+                        break
                 if trouve:
                     print(f"Le produit {nom_produit} est présent à une quantité {l[1]} à un prix unitaire de {l[2]}€ et est de catégorie {l[3]}")
                 else:

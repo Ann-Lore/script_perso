@@ -22,7 +22,6 @@ def generer_rapport(output_file):
                     dict_categories[categories] = [i.strip().split(',')[0]]
                 else:
                     dict_categories[categories].append(i.strip().split(',')[0])
-            print(dict_categories)
             for i in dict_categories:
                 print(f"Pour la catégorie {i}, il y a {len(dict_categories[i])} produits")
 
