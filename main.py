@@ -65,7 +65,10 @@ def main():
             generer_rapport(args.output)
 
     except FileNotFoundError:
-        raise FileNotFoundError("Les fichiers ne sont pas trouvé")
+        print("Les fichiers ne sont pas trouvé")
+    except ValueError:
+        print("Les fichiers ne sont pas valides")
+
 
 if __name__ == "__main__":
     main()

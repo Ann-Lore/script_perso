@@ -49,6 +49,8 @@ def consolidation_fichiers(csv_files, output_file, append,new_line,update,line_t
                             else:
                                 # Ajouter un nouveau produit
                                 data_dict[produit] = [quantite, prix, categorie]
+                        else:
+                            raise ValueError
 
                 # Écrire le fichier consolidé
             with open(output_file, "w", encoding='utf-8') as outfile:
